@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renmi Portfolio</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- email Js -->
+  
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init({
+  publicKey: "AlQpN2gvl4mDCjMSt",
+});
+})();
+</script> 
+</head>
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-primary menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <img src="./image/vecteezy_luxury-and-elegant-initial-letter-r-logo-design_.jpg" alt="logo image" style="width: 35px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="portfolio.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded">
+          +234 811 006 0056
+          <span>
+            <i class="fas fa-phone-alt"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- home look -->
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+  <!-- text intro -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Hey!, I'm Remilekun</span>
+          <span class="display-2--description lh-base">
+            I'm a Frontend Web Developer
+          </span>
+        </h1>
+        <button type="button" class="rounded-pill btn-rounded">Get in Touch<span><i class="fas fa-arrow-down"></i></span>
+        </button>
+      </div>
+      <!-- profile picture -->
+      <div class="col-md-6 intros text-end">
+        <div class="image-box">
+          <img src="./image/my pics.jpeg" alt="profile picture" class="img-fluid" style="height: 25rem; width: 30rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- my services -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">My Services</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  <!-- DESCRIPTION CONTENT  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            What Service You Will Get From Me
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            Elevating your projects with my comprehensive skills in web development, delivering unparalleled expertise and creatvity for outstanding results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE SERVICES  -->
+  <div class="container">
+    <!-- START THE WEB DEVELOPMENT CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="./image/service-2.png" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">web development</h3>
+          <p class="lh-lg">
+            Specializing in full-stack development for dynamic and
+            responsives websites. I create interactive, visually
+            appealing interfaces, ensuring a seamless user journey.
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Portfolio -->
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">My Work & Projects</h1>
+      <div class="heading-line"></div>
+      <p class="lead">
+        Explore My Works and Projects, Where Every Line of Code Tells a Unique
+        Story of Innovation.
+      </p>
+    </div>
+    <!-- START THE PORTFOLIO ITEMS  -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="image/desktop-design 1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <p><a href="https://renmi007.github.io/QR-code/" title="More Details" target="_blank"><h4>qr-code-component-main</h4></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="image/desktop-preview 6.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <p><a href="https://renmi007.github.io/easy-banking/" title="More Details" target="_blank"><i class="fa fa-link"></i><h4>easybank-landing-page-master</h4></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="image/desktop-preview new.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <p><a href="https://renmi007.github.io/recipe-page/" title="More Details" target="_blank"> <h4>recipe-page-main</h4></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="image/desktop-preview.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <p><a href="https://renmi007.github.io/Blog-card/" title="More Details" target="_blank"><h4>blog-preview-card-main</h4></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="image/destkop-design 3.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <p><a href="https://renmi007.github.io/social-link/" target="_blank" title="More Details"><h4>social-links-profile-main</h4></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="get-started">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Contact</h1>
+      <div class="heading-line"></div>
+      <!-- <p class="lh-lg">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+      </p> -->
+    </div>
+
+    
+      </div>
+      <div class="row">
+        <!-- CONTENT FOR THE MOBILE NUMBER  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+              <path d="M15 7a2 2 0 0 1 2 2" />
+              <path d="M15 3a6 6 0 0 1 6 6" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="tel:+2348110060056" class="contact-box__info--title bg-secondary">+234 811 006 0056</a>
+            <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+          </div>
+        </div>  
+        <!-- CONTENT FOR EMAIL  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <polyline points="3 9 12 15 21 9 12 3 3 9" />
+              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+              <line x1="3" y1="19" x2="9" y2="13" />
+              <line x1="15" y1="13" x2="21" y2="19" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <a href="mailto:mistaremi19@gmail.com" class="contact-box__info--title bg-secondary">mistaremi19@gmail.com</a>
+            <p class="contact-box__info--subtitle">Online support</p>
+          </div>
+        </div>
+        <!-- CONTENT FOR LOCATION  -->
+        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div class="contact-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <line x1="18" y1="6" x2="18" y2="6.01" />
+              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+              <line x1="9" y1="4" x2="9" y2="17" />
+              <line x1="15" y1="15" x2="15" y2="20" />
+            </svg>
+          </div>
+          <div class="contact-box__info">
+            <h2 class="contact-box__info--title bg-secondary">Lagos, Nigeria</h2>
+            <p class="contact-box__info--subtitle">LA 104222, NIG</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- get in touch box -->
+      <div class="col-12 bg-white shadow p-5 w-100 ">
+        <div class="form w-60 pb-3">
+          <h4 class="display-3--title mb-5">Get In Touch</h4>
+
+          <form action="" class="row" name="myForm">
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" id="firstname" name="firstname" placeholder="First Name" class="shadow form-control form-control-lg">
+              <p class="name-err"></p>
+            </div>
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="shadow form-control form-control-lg">
+              <p class="name-err"></p>
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" id="email" name="email" placeholder="email address" class="shadow form-control form-control-lg">
+              <p class="email-err"></p>
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea name="message" id="message" placeholder="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <p class="text-err"></p>
+            </div>
+            <div class="text-center d-grid mt-1">
+                <input type="submit" value="submit" onclick="sendMail()" class=" btn btn-primary rounded-pill pt-3 pb-3"> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+
+  <!-- START THE SOCIAL MEDIA CONTENT  -->
+  <div class="footer-sm" >
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          Connect With Me On Social Media
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="https://m.facebook.com/kolawole.remilekun.9693?mibextid=PlNXYD" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="http://x.com/mistaremi" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Renmi007" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/remilekun-kolawole-735105207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="http://instagram.com/mistaremi_" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- COPYRIGHT INFO  -->
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            &COPY; Copyright @2024, Designed by Kolawole Remilekun
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+
+<script src="./app.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -160,11 +160,11 @@ body{
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(49, 44, 49, 0.95));
+  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(167, 163, 223, 0.95));
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(49, 44, 49, 0.95));
+  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(167, 163, 223, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
@@ -180,7 +180,7 @@ body{
 }
 
 .intro-section {
-  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(49, 44, 49, 0.95));
+  background: linear-gradient(to right, rgba(43, 45, 71, 0.95), rgba(167, 163, 223, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
